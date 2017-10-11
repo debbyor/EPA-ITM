@@ -1,0 +1,258 @@
+epa@localhost ~]$ history
+    1  gitclone https://github.com/debbyor/EPA-ITM/tree/master/week4
+    2  git clone https://github.com/debbyor/EPA-ITM/tree/master/week4
+    3  git clone https://github.com/debbyor/EPA-ITM
+    4  LS
+    5  ls
+    6  cd EPA-ITM/
+    7  ls
+    8  cd week4
+    9  ls
+   10  nano cpu_count.sh 
+   11  ./cpu_count.sh 
+   12  nano cpu_count.sh 
+   13  ./cpu_count.sh 
+   14  nano cpu_count.sh 
+   15  ./cpu_count.sh 
+   16  nano cpu_count.sh 
+   17  ./cpu_count.sh 
+   18  nano cpu_count.sh 
+   19  ./cpu_count.sh 
+   20  nano cpu_count.sh 
+   21  touch_test.sh
+   22  ls
+   23  nano test.sh
+   24  touch tester.sh
+   25  ls
+   26  touch testee
+   27  ls
+   28  chmod +x tester.sh
+   29  ls
+   30  nano tester.sh
+   31  git clone https://github.com/debbyor/EPA-ITM
+   32  nano tester.sh
+   33  ./tester.sh
+   34  nano tester.sh
+   35  ./tester.sh
+   36  nano tester.sh
+   37  ./tester.sh
+   38  nano tester.sh
+   39  nano tester.sh 50
+   40  ./tester.sh
+   41  ./tester.sh 2
+   42  nano tester.sh 
+   43  ./tester.sh 
+   44  nano tester.sh 
+   45  ./tester.sh 
+   46  nano tester.sh 
+   47  ./tester.sh 
+   48  nano tester.sh 
+   49  ./tester.sh 
+   50  nano tester.sh 
+   51  ./tester.sh 
+   52  nano tester.sh 
+   53  ./tester.sh 
+   54  nano tester.sh 
+   55  ./tester.sh 
+   56  nano tester.sh 
+   57  ./tester.sh 
+   58  nano tester.sh 
+   59  ls
+   60  ls l
+   61  ls -l
+   62  git add
+   63  git add tester.sh
+   64  git commit
+   65  git push
+   66  exit
+   67  git clone https://github.com/debbyor/EPA-ITM
+   68  ls
+   69  cd EPA-ITM/
+   70  ls
+   71  cd wek4
+   72  cd week4
+   73  ls
+   74  cd ../..
+   75  rm EPA-ITM/
+   76  cd EPA-ITM/
+   77  rm week4
+   78  cd week4
+   79  cd ..
+   80  cd week3
+   81  ls
+   82  nano cpu_count.sh 
+   83  ./cpu_count.sh 2
+   84  nano cpu_count.sh 
+   85  ./cpu_count.sh 0
+   86  ./cpu_count.sh 1
+   87  nano cpu_count.sh 
+   88  nano cpu_count.sh 2
+   89  ./cpu_count.sh 2
+   90  nano cpu_count.sh
+   91  ./cpu_count.sh 2
+   92  nano cpu_count.sh
+   93  ./cpu_count.sh 
+   94  nano cpu_count.sh
+   95  ./cpu_count.sh 
+   96  pwd 
+   97  ps -ef
+   98  ps -ef | more
+   99  ps -ef | less
+  100  ls
+  101  cd week4
+  102  ls
+  103  ls -all
+  104  ls
+  105  cd ../..
+  106  rm -r EPA-ITM/
+  107  rm -rf EPA-ITM/
+  108  ls
+  109  git clone://github.com/debbyor/EPA-ITM
+  110  git clone https://github.com/debbyor/EPA-ITM
+  111  ls
+  112  cd EPA-ITM/
+  113  ls
+  114  cd week4
+  115  ls
+  116  nano backup.sh 
+  117  ls -R
+  118  cd ..
+  119  ls -R
+  120  cd week4
+  121  ls
+  122  cd copy/
+  123  ls
+  124  ll
+  125  ls -A
+  126  ls -a
+  127  cd ..
+  128  ls -A
+  129  ls -a
+  130  cd ..
+  131  ls -l
+  132  ll
+  133  ls -al
+  134  cd EPA-ITM/
+  135  cd week4
+  136  ls
+  137  nano cpu_count.sh 
+  138  nano tester.sh 
+  139  ./tester.sh 
+  140  nano tester.sh 
+  141  ./tester.sh 
+  142  nano cpu_count.sh 
+  143  ./cpu_count.sh 
+  144  nano cpu_count.sh 
+  145  ./cpu_count.sh 
+  146  nano cpu_count.sh 
+  147  ./cpu_count.sh 
+  148  nano cpu_count.sh 
+  149  ./cpu_count.sh 
+  150  nano cpu_count.sh 
+  151  ./cpu_count.sh 
+  152  nano cpu_count.sh 
+  153  ./cpu_count.sh 
+  154  nano cpu_count.sh 
+  155  ./cpu_count.sh 
+  156  nano cpu_count.sh 
+  157  ./cpu_count.sh 
+  158  nano cpu_count.sh 
+  159  ./cpu_count.sh 
+  160  nano cpu_count.sh 
+  161  ./cpu_count.sh 
+  162  nano cpu_count.sh 
+  163  ./cpu_count.sh 
+  164  nano cpu_count.sh 
+  165  ./cpu_count.sh 
+  166  nano cpu_count.sh 
+  167  ./cpu_count.sh 
+  168  nano cpu_count.sh 
+  169  ls
+  170  nano backup.sh 
+  171  ./backup.sh 
+  172  nano backup.sh 
+  173  ./backup.sh 
+  174  nano backup.sh 
+  175  ./backup.sh 
+  176  nano backup.sh 
+  177  ls
+  178  cd copy/
+  179  ls
+  180  exit
+  181  history
+  182  cd EPA-ITM/
+  183  cd week4
+  184  ls
+  185  nano backup.sh 
+  186  ./backup.sh 
+  187  nano backup.sh 
+  188  cd copy
+  189  ls
+  190  mv original week4
+  191  ls
+  192  cd week4
+  193  ls
+  194  cd ..
+  195  ls
+  196  ls copy
+  197  #ls
+  198  ls
+  199  cd copy
+  200  ls
+  201  cd ..
+  202  cd copy
+  203  mv week4 lab4trial
+  204  ls
+  205  cd lab4trial/
+  206  ls
+  207  cd .. /..
+  208  ../ ..
+  209  cd ../ ..
+  210  cd.. /..
+  211  cd ..
+  212  nano backup.sh 
+  213  ./backup.sh 
+  214  nano backup.sh 
+  215  cd ..
+  216  ls
+  217  ll
+  218  ls -al
+  219  grep | cpuinfo
+  220  grep cpuinfo
+  221  grep cpu
+  222  grep | cpu
+  223  grep tester
+  224  grep | tester
+  225  grep ?
+  226  cat /proc/cpuinfo
+  227  cat /proc/cpuinfo more
+  228  ls more
+  229  history
+  230  ps -ef | more
+  231  cat /proc/cpuinfo more
+  232  grep /proc/cpuinfo | procssor
+  233  grep /proc/cpuinfo | processor
+  234  fgrep /proc/cpuinfo
+  235  fgrep -/proc/cpuinfo
+  236  grep `processor` /proc/cpuinfo
+  237  grep 'processor' /proc/cpuinfo
+  238  man
+  239  man | more
+  240  grep man | more
+  241  man more
+  242  root         9     2  0 16:38 ?        00:00:00 [rcu_bh]
+  243  man wc
+  244  man grep wc
+  245  man grep | wc
+  246  man grep | wc -w
+  247  man grep | wc -m
+  248  man wc
+  249  man grep | wc -l
+  250  man grep | wc -L
+  251  man wc
+  252  touch ca_practice_history.txt
+  253  ls
+  254  chmod +x ca_practice_history.txt 
+  255  ls
+  256  history
+

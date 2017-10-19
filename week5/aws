@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+HealthCheck=`aws ec2 `
+
+if [ $HealthCheck=$1 ];
+
+then
+
+echo "The instance is running"
+
+else
+
+echo "No such instance"
+
+fi

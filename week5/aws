@@ -1,9 +1,10 @@
 #!/bin/bash
 
+aws ec2 describe-instance-status --instance-id $1 > aws.txt
 
-HealthCheck=`aws ec2 `
+cnt=`grep running aws.txt | wc -l`
 
-if [ $HealthCheck=$1 ];
+if [ $cnt -gt 0 ];
 
 then
 

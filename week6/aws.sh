@@ -15,4 +15,3 @@ else
 echo "No such instance"
 
 fi
-

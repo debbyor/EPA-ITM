@@ -1,0 +1,48 @@
+Adebimpe Orefuwa X00125983 EPA Upload
+
+
+My script to perform healthcheck for aws instances
+
+
+#!/bin/bash
+
+aws ec2 describe-instance-status --instance-id $1 > aws.txt
+
+cnt=`grep running aws.txt | wc -l`
+
+if [ $cnt -gt 0 ]; then
+
+echo "The instance is running"
+
+else
+
+echo "No such instance"
+
+fi
+
+
+
+
+#Cron job
+
+* * * * * /home/epa/EPA-ITM/week7/runscript.sh i-033390d4b2e4fb049 >> home/epa/EPA-ITM/week7/cronlog.txt
+
+
+* * * * * /home/epa/EPA-ITM/week7/runscript.sh i-07bc96b8192810fe0 >> home/epa/EPA-ITM/week7/cronlog.txt
+
+
+
+
+#output copied from aws.txt
+{
+    "InstanceStatuses": []
+}
+
+ 
+
+
+
+ 
+
+
+

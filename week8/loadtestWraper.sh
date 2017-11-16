@@ -1,11 +1,14 @@
-`#!/bin/bash
+#!/bin/bash
 
-./loadtestWraper.sh $1 $2
+# & is to background the loadtest
+./loadtest $1 &
 
-./loadtest $1
 sleep $2
+
+#fg brings the running process to  foreground mode
+
 #Kills loadtest
-pkill
+pkill loadtest
 
 
 

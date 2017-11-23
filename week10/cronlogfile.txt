@@ -1,0 +1,4 @@
+Linux 4.12.13-300.fc26.x86_64 (localhost.localdomain) 	23/11/17 	_x86_64_	(1 CPU)
+
+11:01:01     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+11:01:01     all   15.47    0.02    2.03    0.83    0.57    0.08    0.00    0.00    0.00   81.00

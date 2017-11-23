@@ -1,0 +1,133 @@
+epa@localhost week10]$ mpstat 1 1 -o JSON | jq '.sysstat'
+{
+  "hosts": [
+    {
+      "nodename": "localhost.localdomain",
+      "sysname": "Linux",
+      "release": "4.12.13-300.fc26.x86_64",
+      "machine": "x86_64",
+      "number-of-cpus": 1,
+      "date": "23/11/17",
+      "statistics": [
+        {
+          "timestamp": "10:14:39",
+          "cpu-load": [
+            {
+              "cpu": "all",
+              "usr": 3.06,
+              "nice": 0,
+              "sys": 0,
+              "iowait": 0,
+              "irq": 0,
+              "soft": 0,
+              "steal": 0,
+              "guest": 0,
+              "gnice": 0,
+              "idle": 96.94
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+[epa@localhost week10]$ 
+
+[epa@localhost week10]$ mpstat 1 1 -o JSON | jq '.sysstat.hosts'
+[
+  {
+    "nodename": "localhost.localdomain",
+    "sysname": "Linux",
+    "release": "4.12.13-300.fc26.x86_64",
+    "machine": "x86_64",
+    "number-of-cpus": 1,
+    "date": "23/11/17",
+    "statistics": [
+      {
+        "timestamp": "10:17:52",
+        "cpu-load": [
+          {
+            "cpu": "all",
+            "usr": 3.06,
+            "nice": 0,
+            "sys": 0,
+            "iowait": 0,
+            "irq": 0,
+            "soft": 0,
+            "steal": 0,
+            "guest": 0,
+            "gnice": 0,
+            "idle": 96.94
+          }
+        ]
+      }
+    ]
+  }
+]
+[epa@localhost week10]$ mpstat 1 1 -o JSON | jq '.sysstat.hosts[0]'
+{
+  "nodename": "localhost.localdomain",
+  "sysname": "Linux",
+  "release": "4.12.13-300.fc26.x86_64",
+  "machine": "x86_64",
+  "number-of-cpus": 1,
+  "date": "23/11/17",
+  "statistics": [
+    {
+      "timestamp": "10:18:00",
+      "cpu-load": [
+        {
+          "cpu": "all",
+          "usr": 4.04,
+          "nice": 0,
+          "sys": 0,
+          "iowait": 0,
+          "irq": 1.01,
+          "soft": 0,
+          "steal": 0,
+          "guest": 0,
+          "gnice": 0,
+          "idle": 94.95
+        }
+      ]
+    }
+  ]
+}
+[epa@localhost week10]$ mpstat 1 1 -o JSON | jq '.sysstat.hosts[0].statistics'
+[
+  {
+    "timestamp": "10:19:01",
+    "cpu-load": [
+      {
+        "cpu": "all",
+        "usr": 6,
+        "nice": 0,
+        "sys": 1,
+        "iowait": 0,
+        "irq": 1,
+        "soft": 0,
+        "steal": 0,
+        "guest": 0,
+        "gnice": 0,
+        "idle": 92
+      }
+    ]
+  }
+]
+[epa@localhost week10]$ mpstat 1 1 -o JSON | jq '.sysstat.hosts[0].statistics[0]."cpu-load"[0]'
+{
+  "cpu": "all",
+  "usr": 6,
+  "nice": 0,
+  "sys": 1,
+  "iowait": 2,
+  "irq": 1,
+  "soft": 0,
+  "steal": 0,
+  "guest": 0,
+  "gnice": 0,
+  "idle": 90
+}
+[epa@localhost week10]$ 
+
+

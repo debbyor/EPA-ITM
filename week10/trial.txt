@@ -1,0 +1,11 @@
+echo "this goes to a file truncating it first
+echo "this goes to a file truncating it first
+echo "this goes to a file truncating it first
+
+echo "this goes to a file truncating it first
+echo "this goes to a file truncating it first
+echo "this goes to a file truncating it first
+echo "this goes to a file truncating it first
+echo "this goes to a file truncating it first
+echo "this goes to a file truncating it first
+

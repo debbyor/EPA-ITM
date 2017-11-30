@@ -2,3 +2,19 @@ Linux 4.12.13-300.fc26.x86_64 (localhost.localdomain) 	23/11/17 	_x86_64_	(1 CPU
 
 11:01:01     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
 11:01:01     all   15.47    0.02    2.03    0.83    0.57    0.08    0.00    0.00    0.00   81.00
+Linux 4.12.13-300.fc26.x86_64 (localhost.localdomain) 	23/11/17 	_x86_64_	(1 CPU)
+
+11:02:02     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+11:02:02     all   15.45    0.02    2.03    0.83    0.57    0.08    0.00    0.00    0.00   81.02
+Linux 4.12.13-300.fc26.x86_64 (localhost.localdomain) 	23/11/17 	_x86_64_	(1 CPU)
+
+11:03:01     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+11:03:01     all   15.46    0.02    2.03    0.83    0.57    0.08    0.00    0.00    0.00   81.01
+Linux 4.12.13-300.fc26.x86_64 (localhost.localdomain) 	30/11/17 	_x86_64_	(1 CPU)
+
+09:24:59     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+09:24:59     all   15.48    0.02    2.03    0.83    0.57    0.08    0.00    0.00    0.00   80.99
+Linux 4.12.13-300.fc26.x86_64 (localhost.localdomain) 	30/11/17 	_x86_64_	(1 CPU)
+
+09:25:01     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+09:25:01     all   15.48    0.02    2.04    0.83    0.57    0.08    0.00    0.00    0.00   80.99
